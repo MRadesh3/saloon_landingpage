@@ -1,0 +1,532 @@
+* {
+  font-family: 'Noto Serif', serif;
+}
+
+/* Navbar styles */
+.navbar-brand {
+  font-family: 'Patua One', cursive;
+}
+
+.nav-box {
+  height: 86px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+
+nav .nav-link {
+  margin: 0 10px;
+}
+
+.nav-item .oddone {
+  margin-left: 70px;
+}
+
+nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Home Main Page styles */
+#home {
+  background-image: url(https://respark.in/wp-content/uploads/2023/01/Desktop_WEBP.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.heading {
+  font-family: 'Patua One', cursive;
+  color: #C92C6D;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.subtitle {
+  color: #567189;
+  text-align: center;
+}
+
+#home .btn, nav .btn, .buttonsweb .btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Patua One', cursive;
+  color: #C92C6D;
+  font-size: 17px;
+  background: #fcfcfc;
+  padding: 10px 20px;
+  border: solid #c92c6d 2px;
+  text-decoration: none;
+  margin-left: 160px;
+}
+
+#home .btn:hover, nav .btn:hover, .buttonsweb .btn:hover {
+  background: #c92c6d;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -moz-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -ms-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -o-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: linear-gradient(to bottom, #c92c6d, #c92c6d);
+  text-decoration: none;
+}
+
+#home .uplift {
+  display: flex;
+  flex-direction: row;
+}
+
+.uplift {
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  border-radius: 30px;
+  padding: 5px 5px 5px 15px;
+  width: 230px;
+  text-decoration: none;
+  color: #C92C6D;
+  text-align: center;
+  font-weight: bold;
+}
+
+.spanbtn {
+  margin: 10px 0 0 5px;
+}
+
+.upone {
+  margin: 40px 0 0 150px;
+}
+
+.uptwo {
+  margin-left: 90px;
+}
+
+.upthree {
+  margin-left: 40px;
+}
+
+.upfour {
+  margin-left: 10px;
+}
+
+/* About Us styles */
+.aboutleft {
+  background-color: #C92C6D;
+  color: white;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  border-radius: 0 90px 90px 0;
+  margin-top: 800px;
+  padding: 30px;
+}
+
+.aboutleft p {
+  padding: 28px;
+}
+
+.aboutleft li {
+  color: white;
+}
+
+.subtitle1 {
+  color: #567189;
+  font-size: 14px;
+}
+
+.uplift1 {
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  border-radius: 30px;
+  padding: 5px 5px 5px 15px;
+  text-decoration: none;
+  color: #C92C6D;
+  font-weight: bold;
+  display: flex;
+  margin: 30px 0;
+}
+
+.uplift1 img {
+  padding: 10px;
+}
+
+/* Services styles */
+.titles {
+  color: #C92C6D;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Patua One', cursive;
+}
+
+#services h3 {
+  margin-left: 50px;
+}
+
+#services h5 {
+  color: #C92C6D;
+  margin-left: 50px;
+}
+
+.hrline {
+  color: #C92C6D;
+  border-width: 2px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.subtitle12 {
+  color: #567189;
+  font-size: 15px;
+  padding: 40px;
+  text-align: justify;
+}
+
+.buttonsweb .btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Patua One', cursive;
+  color: #C92C6D;
+  font-size: 17px;
+  background: #fcfcfc;
+  padding: 10px 20px;
+  border: solid #c92c6d 2px;
+  text-decoration: none;
+  margin-left: 0px;
+  width: 190px;
+}
+
+.buttonsweb .btn:hover {
+  background: #c92c6d;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -moz-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -ms-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -o-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: linear-gradient(to bottom, #c92c6d, #c92c6d);
+  text-decoration: none;
+}
+
+.saloon1 {
+  width: 100%;
+  height: auto;
+}
+
+.saloon {
+  width: 100%;
+  height: auto;
+}
+
+.twoservice {
+  margin-top: 150px;
+}
+
+.twoservice .btn {
+  margin-left: 210px;
+}
+
+.threeservice {
+  margin-top: 150px;
+}
+
+.threeservice .btn {
+  margin-left: 210px;
+}
+
+/* Customers Testomonial */
+.caroimg {
+  width: 80%;
+  height: 550px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  align-items: center;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.subtitle123 {
+  color: #567189;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Packages styles */
+#packages .col-lg-4 {
+  padding: 30px;
+}
+
+.titles1 {
+  color: #C92C6D;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Patua One', cursive;
+}
+
+.innerpack {
+  padding: 40px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  border-radius: 20px;
+  border: solid #c92c6d 2px;
+  text-align: center;
+}
+
+.innerpack h3 {
+  color: #c92c6d;
+}
+
+.innerpack:hover {
+  transform: scale(1.1);
+}
+
+#packages .btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Patua One', cursive;
+  color: #C92C6D;
+  font-size: 17px;
+  background: #fcfcfc;
+  padding: 10px 20px;
+  border: solid #c92c6d 2px;
+  text-decoration: none;
+  margin-left: 0px;
+  width: 190px;
+}
+
+#packages .btn:hover {
+  background: #c92c6d;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -moz-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -ms-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -o-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: linear-gradient(to bottom, #c92c6d, #c92c6d);
+  text-decoration: none;
+}
+
+.innerdivcon p {
+  color: #567189;
+  font-size: 15px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #F0EEED;
+  padding: 50px 30px;
+  margin-top: 100px;
+  text-align: justify;
+}
+
+.footlogo {
+  width: 80px;
+  height: 80px;
+  margin: 25px 20px;
+}
+
+#footcontact {
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.footdesign {
+  display: flex;
+  padding: 20px;
+}
+
+.foothead {
+  font-family: 'Patua One', cursive;
+  color: #C92C6D;
+}
+
+.foothr {
+  color: #C92C6D;
+}
+
+#footdown .col-lg-6 {
+  border-right: 1px solid #C92C6D;
+}
+
+.footdesign iframe {
+  width: 100%;
+  height: 200px;
+  border: 2px solid #c92c6d;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: 1s;
+  "
+
+}
+
+.footdesign p, li {
+  color: #567189;
+  font-size: 15px;
+}
+
+.innerdesign {
+  margin: 35px;
+  text-align: center;
+}
+
+.innerdesign .btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Patua One', cursive;
+  color: #C92C6D;
+  font-size: 17px;
+  background: #fcfcfc;
+  padding: 10px 20px;
+  border: solid #c92c6d 2px;
+  text-decoration: none;
+  width: 180px;
+}
+
+.innerdesign .btn:hover {
+  background: #c92c6d;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -moz-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -ms-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: -o-linear-gradient(top, #c92c6d, #c92c6d);
+  background-image: linear-gradient(to bottom, #c92c6d, #c92c6d);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  #home .col-lg-5, .col-lg-7 {
+    padding: 0;
+  }
+
+  #home .heading {
+    margin-top: 30px;
+    padding: 20px;
+  }
+
+  .nav-item .oddone {
+    margin-left: 10px;
+  }
+
+  nav .btn {
+    margin: 20px 5px;
+  }
+
+  #home .btn {
+    margin-left: 130px;
+  }
+
+  .hrline {
+    width: 200px;
+  }
+
+  .saloon1 {
+    margin-top: 30px;
+  }
+
+  .buttonsweb .btn {
+    margin: 1px 0 5px 100px;
+  }
+
+  .twoservice {
+    margin-top: 100px;
+  }
+
+  .threeservice {
+    margin-top: 100px;
+  }
+
+  .caroimg {
+    height: 210px;
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footlogo {
+    width: 80px;
+    height: 80px;
+    margin: 25px 5px;
+  }
+
+  #footcontact {
+    text-align: center;
+  }
+
+  .footdesign {
+    display: flex;
+    padding: 0px;
+  }
+
+  .innerdesign {
+    margin: 25px 5px 15px;
+  }
+
+  #footdown .col-lg-6 {
+    border-right: 0;
+  }
+}
+
+@media only screen and (max-width: 768px)and (min-width:480px) {
+  #home .heading {
+    margin-top: 40px;
+  }
+
+  #home .btn {
+    margin-left: 320px;
+  }
+
+  .nav-item .oddone {
+    margin-left: 10px;
+  }
+
+  nav .btn {
+    margin: 20px 5px;
+  }
+
+  .buttonsweb .btn {
+    margin: 0 0 30px 50px;
+  }
+
+  .twoservice {
+    margin-top: 100px;
+  }
+
+  .threeservice {
+    margin-top: 100px;
+  }
+
+  .caroimg {
+    height: 350px;
+  }
+
+  #footdown .col-lg-6 {
+    border-right: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #home .heading {
+    margin-top: 30px;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+  text-align: justify;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
